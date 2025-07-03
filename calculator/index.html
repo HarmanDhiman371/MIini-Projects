@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display" placeholder="enter value" disabled>
+        <div class="buttons">
+            <button onclick="cleardisplay()">Clear</button>
+            <button onclick="displaytext('1')">1</button>
+            <button onclick="displaytext('2')">2</button>
+            <button onclick="displaytext('3')">3</button>
+            <button onclick="displaytext('4')">4</button>
+            <button onclick="displaytext('5')">5</button>
+            <button onclick="displaytext('6')">6</button>
+            <button onclick="displaytext('7')">7</button>
+            <button onclick="displaytext('8')">8</button>
+            <button onclick="displaytext('9')">9</button>
+            <button onclick="displaytext('+')">+</button>
+            <button onclick="displaytext('-')">-</button>
+            <button onclick="displaytext('/')">/</button>
+            <button onclick="displaytext('*')">*</button>
+            <button onclick="displaytext('%')">%</button>
+            <button onclick="removenumber()">Back</button>
+            <button onclick="evaluateit()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
