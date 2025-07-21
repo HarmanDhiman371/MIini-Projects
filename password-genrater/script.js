@@ -22,7 +22,7 @@ function genPassword() {
     }
 
     let password = '';
-    for (let i = 0; i < length; i++) {
+    for(let i = 0; i < length; i++) {
         const randomIndex = Math.floor(Math.random() * characterPool.length);
         password += characterPool[randomIndex];
     }
